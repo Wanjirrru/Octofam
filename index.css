@@ -54,6 +54,11 @@ nav li a{
     padding-right: 100px;
 
 }
+body{
+    padding-bottom: 5.30em;
+    position: relative;
+    margin: 0;
+}
 section{
     width: 100%;
     display: block;
@@ -81,7 +86,10 @@ section{
     padding: 40px;
 }
 footer{
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -173vw;
     width: 100%;
     background: #009688;
     min-height: 100px;

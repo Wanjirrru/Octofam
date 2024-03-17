@@ -257,3 +257,26 @@ footer .wave#wave4{
         background-position-x:1000px;
     }
 }
+@media screen and (max-width:770px) {
+    .cats-bio {
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .cats-desc{
+        height: 75%;
+    }
+    .cats-desc p{
+        font-size: 12px;
+    }
+    .cats-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    hr{
+        margin: 5px auto;
+    }
+    .cats-bio:hover .cats-desc{
+        bottom: 25% !important;
+    }
+}
